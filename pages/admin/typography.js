@@ -245,14 +245,6 @@ function TypographyPage() {
           <CardActions>
             <Button
               target="_blank"
-              href="https://github.com/akash-arelli/hotel-admin/tree/master/hotel-admin"
-              size="small"
-              color="primary"
-            >
-              GitHub
-            </Button>
-            <Button
-              target="_blank"
               href=""
               size="small"
               color="primary"
