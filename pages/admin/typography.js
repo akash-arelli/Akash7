@@ -55,7 +55,7 @@ const styles = {
   },
   media: {
     height: 180,
-    objectFit: "cover",
+    objectFit: "contain",
   },
   box: {
     display: "flex",
@@ -117,35 +117,35 @@ function TypographyPage() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image="/todo-list.png"
+              style={{
+                height: "200px",
+                objectFit: "contain",
+                width: "",
+              }}
+              image="/riyft.png"
               title="Contemplative Reptile"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                To-Do List
+                Riyft
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                A simple app to organize your tasks with very easy to use
-                interface. ToDo can help you to make list of your tasks. Built
-                the Front-End with React and Redux is used for state management.
+                Online Edu-Tech platform to register and buy courses. Built with
+                React and Material ui payment integration (Razorpay)
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button
-              target="_blank"
-              href="https://github.com/akash-arelli/To-Do-app"
-              size="small"
-              color="primary"
-            >
-              GitHub
-            </Button>
-            <Button
-              target="_blank"
-              href=""
-              size="small"
-              color="primary"
-            ></Button>
+            <CardActions>
+              <Button
+                target="_blank"
+                href="https://riyft.com/"
+                size="small"
+                color="primary"
+              >
+                Live
+              </Button>
+            </CardActions>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -260,23 +260,22 @@ function TypographyPage() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Instagram Clone
+                Ammarzo
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Instagram app with post sharing and user authentication
-                functionality. Built with Firebase and Firestore. Material UI is
-                used for styling.
+                It is an Indian fashion e-commerce website. Built with React ,
+                material ui with payments integration (Razorpay).
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button
               target="_blank"
-              href="https://github.com/akash-arelli/Instagram-clone"
+              href="https://www.ammarzo.com/"
               size="small"
               color="primary"
             >
-              GitHub
+              Live
             </Button>
             <Button
               target="_blank"
@@ -389,18 +388,16 @@ function TypographyPage() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button
-              target="_blank"
-              href=""
-              size="small"
-              color="primary"
-            ></Button>
-            <Button
-              target="_blank"
-              href=""
-              size="small"
-              color="primary"
-            ></Button>
+            <CardActions>
+              <Button
+                target="_blank"
+                href="https://quotes.freightleap.com"
+                size="small"
+                color="primary"
+              >
+                Live Demo
+              </Button>
+            </CardActions>
           </CardActions>
         </Card>
       </CardBody>

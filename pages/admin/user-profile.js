@@ -129,21 +129,21 @@ function UserProfile() {
                 </CardActionArea>
               </div>
               <div className={classes.social}>
-                <a
+                {/* <a
                   target="_blank"
                   href="https://www.facebook.com/akasharelli7/"
                 >
                   <FacebookIcon fontSize="large" color="primary" />
-                </a>
+                </a> */}
                 <a target="_blank" href="https://github.com/akash-arelli">
                   <GitHubIcon fontSize="large" style={{ color: "black" }} />
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   href="https://www.instagram.com/akasharelli/"
                 >
                   <InstagramIcon fontSize="large" color="secondary" />
-                </a>
+                </a> */}
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/akash-arelli-2199a81a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkAhY4dNrQFi2piEhnB%2BrgA%3D%3D"
@@ -151,7 +151,7 @@ function UserProfile() {
                   <LinkedInIcon fontSize="large" color="primary" />
                 </a>
                 <a href="mailto: akasharelli@gmail.com">
-                  <MailIcon fontSize="large" color="secondary"/>
+                  <MailIcon fontSize="large" color="secondary" />
                 </a>
               </div>
             </CardBody>
@@ -162,7 +162,7 @@ function UserProfile() {
             </CardFooter>
           </Card>
         </GridItem>
-        <GridItem style={{marginTop:"2%"}} xs={12} sm={12} md={4}>
+        <GridItem style={{ marginTop: "2%" }} xs={12} sm={12} md={4}>
           <Card profile>
             <CardAvatar profile>
               <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -177,7 +177,7 @@ function UserProfile() {
                 technologies. I am open to internship and freelance
                 oppurtunities.
               </p>
-              <Button href="/Akash.pdf"  color="primary" round download>
+              <Button href="/Akash.pdf" color="primary" round download>
                 Resume
               </Button>
             </CardBody>
