@@ -59,7 +59,7 @@ const styles = {
   },
   box: {
     display: "flex",
-    flexWrap:"wrap",
+    flexWrap: "wrap",
     justifyContent: "space-between",
   },
   container: {
@@ -152,7 +152,7 @@ function Maps() {
             </Button>
           </CardActions>
         </Card>
-  
+
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -169,6 +169,30 @@ function Maps() {
           <CardActions>
             <Button
               href="/Akash_Arelli_Internship_WFH_Offer_Letter.pdf"
+              target="_blank"
+              size="small"
+              color="primary"
+            >
+              View
+            </Button>
+          </CardActions>
+        </Card>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image="/shiprocket_offer.png"
+              title="Contemplative Reptile"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                OFFER LETTER(SHIPROCKET)
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button
+              href="/Akash Arelli - Internship Offer Letter.pdf"
               target="_blank"
               size="small"
               color="primary"

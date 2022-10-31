@@ -80,7 +80,7 @@ function Dashboard() {
               color="textPrimary"
               gutterBottom
             >
-              Front-end Developer
+              Intro
             </Typography>
             <Typography
               variant="h5"
@@ -88,9 +88,10 @@ function Dashboard() {
               color="textSecondary"
               paragraph
             >
-              Hi, I’m Akash. Nice to meet you. My main interest lies in
-              Front-End Development(React).I help startups and businesses by
-              designing and developing websites and web,mobile applications.
+              Majoring in Computer Science and Engineering | Interested in
+              problem-solving, Full Stack development , Mobile App
+              development(React Native)| Strong knowledge of Javascript , React
+              js , Next js , Typescript | Proficient in C++, and Python
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">

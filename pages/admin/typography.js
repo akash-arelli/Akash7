@@ -80,24 +80,24 @@ function TypographyPage() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image="/wildfire-tracker.png"
+              image="/image-gallery.jpg"
               title="Contemplative Reptile"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Wild-Fire Tracker
+                Image - Gallery
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Wild-Fire Tracker detects and tracks the natural wildfires
-                occurring around the world and depicts the data in an
-                interactive way. Built with google maps and NASA api.
+                Image Gallary is used when you want to display a series of
+                photos in a gallery on a page.Files can be uploaded to the
+                database. Backend and databases are built with firebase.
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
             <Button
               target="_blank"
-              href="https://github.com/akash-arelli/wildfiretracker"
+              href="https://github.com/akash-arelli/Image-Gallery"
               size="small"
               color="primary"
             >
@@ -105,7 +105,7 @@ function TypographyPage() {
             </Button>
             <Button
               target="_blank"
-              href="https://wizardly-benz-af417f.netlify.app/"
+              href="https://optimistic-golick-167462.netlify.app"
               size="small"
               color="primary"
             >
@@ -113,6 +113,7 @@ function TypographyPage() {
             </Button>
           </CardActions>
         </Card>
+
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -137,13 +138,49 @@ function TypographyPage() {
           </CardActionArea>
           <CardActions>
             <CardActions>
-              <Button
+              {/* <Button
                 target="_blank"
                 href="https://riyft.com/"
                 size="small"
                 color="primary"
               >
                 Live
+              </Button> */}
+            </CardActions>
+          </CardActions>
+        </Card>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              style={{
+                height: "250px",
+                objectFit: "cover",
+                width: "",
+              }}
+              image="/maxresdefault.jpg"
+              title="Contemplative Reptile"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Frieghtleap Tool
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                It is a tool for registration for services of supply-chain and
+                logistic company services.Built with Next js (framework) ,
+                Google places API , Ant Design.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <CardActions>
+              <Button
+                target="_blank"
+                href="https://quotes.freightleap.com"
+                size="small"
+                color="primary"
+              >
+                Live Demo
               </Button>
             </CardActions>
           </CardActions>
@@ -190,43 +227,6 @@ function TypographyPage() {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image="/image-gallery.jpg"
-              title="Contemplative Reptile"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Image - Gallery
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                Image Gallary is used when you want to display a series of
-                photos in a gallery on a page.Files can be uploaded to the
-                database. Backend and databases are built with firebase.
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button
-              target="_blank"
-              href="https://github.com/akash-arelli/Image-Gallery"
-              size="small"
-              color="primary"
-            >
-              GitHub
-            </Button>
-            <Button
-              target="_blank"
-              href="https://optimistic-golick-167462.netlify.app"
-              size="small"
-              color="primary"
-            >
-              Live Demo
-            </Button>
-          </CardActions>
-        </Card>
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
               image="/hotel-admin.jpg"
               title="Contemplative Reptile"
             />
@@ -269,7 +269,7 @@ function TypographyPage() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button
+            {/* <Button
               target="_blank"
               href="https://www.ammarzo.com/"
               size="small"
@@ -282,10 +282,46 @@ function TypographyPage() {
               href=""
               size="small"
               color="primary"
-            ></Button>
+            ></Button> */}
           </CardActions>
         </Card>
-
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image="/wildfire-tracker.png"
+              title="Contemplative Reptile"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Wild-Fire Tracker
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Wild-Fire Tracker detects and tracks the natural wildfires
+                occurring around the world and depicts the data in an
+                interactive way. Built with google maps and NASA api.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button
+              target="_blank"
+              href="https://github.com/akash-arelli/wildfiretracker"
+              size="small"
+              color="primary"
+            >
+              GitHub
+            </Button>
+            <Button
+              target="_blank"
+              href="https://wizardly-benz-af417f.netlify.app/"
+              size="small"
+              color="primary"
+            >
+              Live Demo
+            </Button>
+          </CardActions>
+        </Card>
         <Card className={classes.root}>
           <CardActionArea>
             <CardMedia
@@ -315,14 +351,14 @@ function TypographyPage() {
             >
               GitHub
             </Button>
-            <Button
+            {/* <Button
               target="_blank"
               href="https://signal-clone-76b37.web.app/"
               size="small"
               color="primary"
             >
               Live Demo
-            </Button>
+            </Button> */}
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -362,42 +398,6 @@ function TypographyPage() {
             >
               Live Demo
             </Button>
-          </CardActions>
-        </Card>
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              style={{
-                height: "250px",
-                objectFit: "cover",
-                width: "",
-              }}
-              image="/maxresdefault.jpg"
-              title="Contemplative Reptile"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Frieghtleap Tool
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                It is a tool for registration for services of supply-chain and
-                logistic company services.Built with Next js (framework) ,
-                Google places API , Ant Design.
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <CardActions>
-              <Button
-                target="_blank"
-                href="https://quotes.freightleap.com"
-                size="small"
-                color="primary"
-              >
-                Live Demo
-              </Button>
-            </CardActions>
           </CardActions>
         </Card>
       </CardBody>

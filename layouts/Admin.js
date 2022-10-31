@@ -79,7 +79,7 @@ export default function Admin({ children, ...rest }) {
       <Sidebar
         routes={routes}
         logoText={"Akash Arelli"}
-        logo="/akash.png"
+        logo="/profile.jpeg"
         image={image}
         handleDrawerToggle={handleDrawerToggle}
         open={mobileOpen}

@@ -166,7 +166,7 @@ function UserProfile() {
           <Card profile>
             <CardAvatar profile>
               <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                <img src="/akash.png" alt="..." />
+                <img src="/profile.jpeg" alt="..." />
               </a>
             </CardAvatar>
             <CardBody profile>

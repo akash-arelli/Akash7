@@ -110,7 +110,7 @@ function TableList() {
               <TimelineItem>
                 <TimelineOppositeContent>
                   <Typography variant="body2" color="textSecondary">
-                    2020 AUG - 2020 OCT
+                    2020 AUG - 2020 OCT and 2021 Sept - 2021 Nov
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -126,12 +126,9 @@ function TableList() {
                     </Typography>
                     <Typography>🇮🇳Front-End developer(freelance)</Typography>
                     <Typography>
-                      {" "}
-                      I was part of a team of web developers where I was
-                      involved in building and designing the complete Front-End
-                      of an Hotel-Management Project for both user and admin
-                      side. Worked with REST API's and technologies used are
-                      React js and node js.
+                      1)Hotel admin and User <br></br>
+                      2)Riyft (Edtech website admin and User) <br></br>
+                      3)Ammarzo (Ecommerce fashion website admin and user)
                     </Typography>
                   </Paper>
                 </TimelineContent>
@@ -139,7 +136,7 @@ function TableList() {
               <TimelineItem>
                 <TimelineOppositeContent>
                   <Typography variant="body2" color="textSecondary">
-                    2020 Feb - Present
+                    2021 Feb - 2021 Jun
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -150,15 +147,41 @@ function TableList() {
                 <TimelineContent>
                   <Paper elevation={3} className={classes.paper}>
                     <Typography variant="h6" component="h1">
-                      Front End Development Intern
-                    </Typography>
-                    <Typography>
                       🇮🇳KoiReader - Unlock Smart Operations
                     </Typography>
+                    <Typography>Front End Development Intern</Typography>
                     <Typography>
                       Built a Frightleap tool for shipping and logistics
                       registration. Technologies used : React js, Next js
                       (framework) , Typescript , Google maps , Ant Design
+                    </Typography>
+                  </Paper>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography variant="body2" color="textSecondary">
+                    2022 JAN - 2023 MAR
+                  </Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" variant="outlined">
+                    <WorkIcon />
+                  </TimelineDot>
+                  <TimelineConnector className={classes.secondaryTail} />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Paper elevation={3} className={classes.paper}>
+                    <Typography variant="h6" component="h1">
+                      SHIPROCKET
+                    </Typography>
+                    <Typography>SWE Intern</Typography>
+                    <Typography>
+                      1)Developed scripts to generate files for google ads feed
+                      for 3hour delivery in PHP. 2) Added feature and API’s to
+                      enable Quick Commerce on platform(Laravel). 3)Fixed bugs
+                      and Refactored code. 4)R&D on Open Source Routing Machine
+                      for delivery maps.
                     </Typography>
                   </Paper>
                 </TimelineContent>
